@@ -18,7 +18,7 @@ This component has two CloudFormation deployment parameters that can be modified
 - `ConversionFileType`: a string with the extension (no starting dot) for the resulting file type. For example, to convert to MS Word, use `docx`.
 - `ConversionMimeType`: a string with the MIME type of the result when uploaded to S3. For example, for MS Word files, use `application/vnd.openxmlformats-officedocument.wordprocessingml.document`
 
-If you use a custom Lambda Layer for Pandoc, then also provide the ARN of the layer in the `LambdaLayerArn` parameter. 
+If you use a custom [Lambda Layer for Pandoc](https://github.com/effortless-serverless/pandoc-aws-lambda-binary), then also provide the ARN of the layer in the `LambdaLayerArn` parameter. 
 
 ## Latest Release - 1.0.0
 
